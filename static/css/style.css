@@ -1,0 +1,192 @@
+/* =======================
+   GLOBAL RESET
+======================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #f5f7fa, #e4ecf4);
+    color: #222;
+}
+
+/* =======================
+   NAVBAR
+======================= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: white;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1d3557;
+}
+
+.author {
+    font-size: 14px;
+    color: #555;
+}
+
+/* =======================
+   HERO SECTION
+======================= */
+.hero {
+    max-width: 900px;
+    margin: 80px auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #1d3557;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* =======================
+   UPLOAD CARD
+======================= */
+.upload-card {
+    background: white;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.upload-box {
+    display: block;
+    padding: 30px;
+    border: 2px dashed #457b9d;
+    border-radius: 14px;
+    cursor: pointer;
+    color: #457b9d;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.upload-box input {
+    display: none;
+}
+
+/* =======================
+   BUTTONS
+======================= */
+.btn-primary {
+    background: #1d3557;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+     text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background: #457b9d;
+    text-decoration: none;
+}
+
+/* =======================
+   RESULTS PAGE
+======================= */
+.result-container {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.result-card {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.result-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.result-card h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.confidence {
+    font-size: 14px;
+    color: #555;
+}
+
+/* =======================
+   FOOTER
+======================= */
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 80px;
+    color: #666;
+    font-size: 14px;
+}
+
+.unknown {
+    color: #c1121f;
+    font-weight: 600;
+}
+
+/* =======================
+   IMAGE PREVIEW GRID
+======================= */
+.preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.preview-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    padding: 10px;
+    text-align: center;
+}
+
+.preview-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.preview-card p {
+    font-size: 12px;
+    margin-top: 8px;
+    color: #555;
+    word-break: break-word;
+}

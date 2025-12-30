@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <style>
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 520px;
+        }
+
+        .card img {
+            width: 260px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .common-name {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .unknown-title {
+            color: #d32f2f;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .unknown-text {
+            color: #555;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        table td {
+            padding: 6px 4px;
+            vertical-align: top;
+        }
+
+        table td:first-child {
+            font-weight: 600;
+            width: 45%;
+            color: #333;
+        }
+
+        table td:last-child {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">🦜 BirdVision AI</div>
+    <div class="author">Developed by <strong>Srivatsan Mk</strong></div>
+</nav>
+
+<!-- RESULTS -->
+<section class="result-container">
+    <h1 style="margin-bottom: 40px;">Prediction Results</h1>
+
+    <div class="results-grid">
+
+        {% for result in results %}
+
+        <!-- 🔴 UNKNOWN BIRD CARD -->
+        {% if result.prediction == "Unknown Bird Species" %}
+        <div class="card">
+
+            <img src="{{ result.image_path }}" alt="Unknown Bird">
+
+            <div class="unknown-title">Unknown Bird Species</div>
+
+            <div class="unknown-text">
+                This bird is not part of the trained dataset
+            </div>
+
+        </div>
+
+        <!-- 🟢 KNOWN BIRD CARD -->
+        {% else %}
+        {% set meta = bird_details[result.prediction] %}
+        <div class="card">
+
+            <img src="{{ result.image_path }}" alt="Bird Image">
+
+            <div class="common-name">
+                {{ meta.common_name }}
+            </div>
+
+            <table>
+                <tr><td>Scientific Name</td><td>{{ meta.scientific_name }}</td></tr>
+                <tr><td>Family</td><td>{{ meta.family }}</td></tr>
+                <tr><td>Order</td><td>{{ meta.order }}</td></tr>
+                <tr><td>Conservation Status</td><td>{{ meta.conservation_status }}</td></tr>
+                <tr><td>Native Regions</td><td>{{ meta.native_regions }}</td></tr>
+                <tr><td>Habitat</td><td>{{ meta.habitat }}</td></tr>
+                <tr><td>Diet</td><td>{{ meta.diet }}</td></tr>
+                <tr><td>Average Lifespan</td><td>{{ meta.average_lifespan }}</td></tr>
+                <tr><td>Wingspan</td><td>{{ meta.wingspan }}</td></tr>
+                <tr><td>Migration Type</td><td>{{ meta.migration_type }}</td></tr>
+            </table>
+
+        </div>
+        {% endif %}
+
+        {% endfor %}
+
+    </div>
+
+    <div style="margin-top: 50px; text-align:center;">
+        <a href="/" class="btn-primary">Predict Some More</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 | BirdVision AI — Srivatsan Mk</p>
+</footer>
+
+</body>
+</html>

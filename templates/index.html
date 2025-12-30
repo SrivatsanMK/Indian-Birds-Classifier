@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Indian Bird Species Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">🦜 BirdVision AI</div>
+    <div class="author">Developed by <strong>Srivatsan Mk</strong></div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Indian Bird Species Classification</h1>
+    <p>
+        A deep learning–based bird species classification system that supports batch image uploads and delivers accurate species predictions through a trained AI model.
+    </p>
+
+    <!-- FORM -->
+    <form class="upload-card" method="POST" enctype="multipart/form-data">
+
+        <!-- FILE INPUT -->
+        <label class="upload-box">
+            <input 
+                type="file"
+                name="images"
+                accept="image/*"
+                multiple
+                required
+                onchange="previewImages(this)"
+            >
+            <span>Upload bird's images</span>
+        </label>
+
+        <!-- IMAGE PREVIEW AREA -->
+        <div id="preview-container" class="preview-grid"></div>
+
+        <!-- SUBMIT -->
+        <button type="submit" class="btn-primary">
+            Predict Bird Species
+        </button>
+
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 | BirdVision AI — Srivatsan Mk</p>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script>
+function previewImages(input) {
+    const preview = document.getElementById("preview-container");
+    preview.innerHTML = "";
+
+    if (!input.files) return;
+
+    Array.from(input.files).forEach(file => {
+        if (!file.type.startsWith("image/")) return;
+
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const div = document.createElement("div");
+            div.className = "preview-card";
+
+            div.innerHTML = `
+                <img src="${e.target.result}">
+                <p>${file.name}</p>
+            `;
+
+            preview.appendChild(div);
+        };
+        reader.readAsDataURL(file);
+    });
+}
+</script>
+
+</body>
+</html>
