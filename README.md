@@ -84,8 +84,10 @@ The dataset used for this project was sourced from **Kaggle**.
 - 📌 Used for training, validation, and testing
 
 > 🔹 **Note:**  
-> The dataset link and details will be added later by the author.  
-> Users may also replace the dataset with their own Kaggle or custom dataset following the same folder structure.
+> The dataset link :
+```
+https://www.kaggle.com/datasets/srivatsanmk2004/25-indian-birds-species
+```
 
 ---
 
