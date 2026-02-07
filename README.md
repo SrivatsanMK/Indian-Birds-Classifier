@@ -1,4 +1,4 @@
-# 🦜 Indian Birds Classifier
+# 🦜 Bird Species Classification Using Deep Learning
 
 The **Indian Birds Classifier** is a deep learning–based image classification project designed to identify bird species native to India from images.  
 This project was **developed and trained on Kaggle**, utilizing **Kaggle’s free GPU environment (up to 30 hours per week)** for efficient model training and experimentation.
