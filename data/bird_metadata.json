@@ -1,0 +1,351 @@
+{
+  "Asian Green Bee Eater": {
+    "common_name": "Asian Green Bee Eater",
+    "scientific_name": "Merops orientalis",
+    "family": "Meropidae",
+    "order": "Coraciiformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "India, South Asia",
+    "habitat": "Open grasslands, farmlands",
+    "diet": "Bees, wasps, flying insects",
+    "average_lifespan": "5–8 years",
+    "wingspan": "25–29 cm",
+    "migration_type": "Resident"
+  },
+
+  "Brown Headed Barbet": {
+    "common_name": "Brown-headed Barbet",
+    "scientific_name": "Psilopogon zeylanicus",
+    "family": "Megalaimidae",
+    "order": "Piciformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "India, Sri Lanka",
+    "habitat": "Forests, plantations",
+    "diet": "Fruits, insects",
+    "average_lifespan": "10 – 15 years",
+    "wingspan": "30–35 cm",
+    "migration_type": "Resident"
+  },
+
+  "Cattle Egret": {
+    "common_name": "Cattle Egret",
+    "scientific_name": "Bubulcus ibis",
+    "family": "Ardeidae",
+    "order": "Pelecaniformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "Worldwide",
+    "habitat": "Grasslands, wetlands",
+    "diet": "Insects, frogs",
+    "average_lifespan": "10–15 years",
+    "wingspan": "88–96 cm",
+    "migration_type": "Partially Migratory"
+  },
+
+  "Common Kingfisher": {
+    "common_name": "Common Kingfisher",
+    "scientific_name": "Alcedo atthis",
+    "family": "Alcedinidae",
+    "order": "Coraciiformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "Europe, Asia",
+    "habitat": "Rivers, lakes",
+    "diet": "Fish, aquatic insects",
+    "average_lifespan": "6–10 years",
+    "wingspan": "24–26 cm",
+    "migration_type": "Partially Migratory"
+  },
+
+  "Common Myna": {
+    "common_name": "Common Myna",
+    "scientific_name": "Acridotheres tristis",
+    "family": "Sturnidae",
+    "order": "Passeriformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "India, South Asia",
+    "habitat": "Urban areas, farmlands",
+    "diet": "Insects, fruits, human food waste",
+    "average_lifespan": "12–15 years",
+    "wingspan": "38-42 cm",
+    "migration_type": "Resident"
+  },
+
+  "Common Rosefinch": {
+    "common_name": "Common Rosefinch",
+    "scientific_name": "Carpodacus erythrinus",
+    "family": "Fringillidae",
+    "order": "Passeriformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "Europe, Asia",
+    "habitat": "Shrublands, gardens",
+    "diet": "Seeds, berries",
+    "average_lifespan": "8–12 years",
+    "wingspan": "26–28 cm",
+    "migration_type": "Migratory"
+  },
+
+  "Common Tailorbird": {
+    "common_name": "Common Tailorbird",
+    "scientific_name": "Orthotomus sutorius",
+    "family": "Cisticolidae",
+    "order": "Passeriformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "India, South Asia",
+    "habitat": "Gardens, scrublands",
+    "diet": "Insects, spiders",
+    "average_lifespan": "6–8 years",
+    "wingspan": "18–20 cm",
+    "migration_type": "Resident"
+  },
+
+  "Coppersmith Barbet": {
+    "common_name": "Coppersmith Barbet",
+    "scientific_name": "Psilopogon haemacephalus",
+    "family": "Megalaimidae",
+    "order": "Piciformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "India, South Asia",
+    "habitat": "Woodlands, urban gardens",
+    "diet": "Fruits, figs",
+    "average_lifespan": "12–15 years",
+    "wingspan": "30–33 cm",
+    "migration_type": "Resident"
+  },
+
+  "Forest Wagtail": {
+    "common_name": "Forest Wagtail",
+    "scientific_name": "Dendronanthus indicus",
+    "family": "Motacillidae",
+    "order": "Passeriformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "Asia",
+    "habitat": "Forests near streams",
+    "diet": "Insects",
+    "average_lifespan": "8–10 years",
+    "wingspan": "26–28 cm",
+    "migration_type": "Migratory"
+  },
+
+  "Gray Wagtail": {
+    "common_name": "Gray Wagtail",
+    "scientific_name": "Motacilla cinerea",
+    "family": "Motacillidae",
+    "order": "Passeriformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "Europe, Asia",
+    "habitat": "Streams, rivers",
+    "diet": "Insects",
+    "average_lifespan": "7–10 years",
+    "wingspan": "27–30 cm",
+    "migration_type": "Migratory"
+  },
+
+  "Hoopoe": {
+    "common_name": "Hoopoe",
+    "scientific_name": "Upupa epops",
+    "family": "Upupidae",
+    "order": "Bucerotiformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "Africa, Asia, Europe",
+    "habitat": "Open fields, farmlands",
+    "diet": "Insects, larvae",
+    "average_lifespan": "10–12 years",
+    "wingspan": "44–48 cm",
+    "migration_type": "Partially Migratory"
+  },
+
+  "House Crow": {
+    "common_name": "House Crow",
+    "scientific_name": "Corvus splendens",
+    "family": "Corvidae",
+    "order": "Passeriformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "South Asia",
+    "habitat": "Urban areas",
+    "diet": "Omnivorous",
+    "average_lifespan": "15–20 years",
+    "wingspan": "85–100 cm",
+    "migration_type": "Resident"
+  },
+
+  "Indian Grey Hornbill": {
+    "common_name": "Indian Grey Hornbill",
+    "scientific_name": "Ocyceros birostris",
+    "family": "Bucerotidae",
+    "order": "Bucerotiformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "India",
+    "habitat": "Forests, urban trees",
+    "diet": "Fruits, insects",
+    "average_lifespan": "20–25 years",
+    "wingspan": "75–85 cm",
+    "migration_type": "Resident"
+  },
+
+  "Indian Peacock": {
+    "common_name": "Indian Peafowl",
+    "scientific_name": "Pavo cristatus",
+    "family": "Phasianidae",
+    "order": "Galliformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "India, Sri Lanka",
+    "habitat": "Forest edges, farmlands",
+    "diet": "Seeds, insects, small reptiles",
+    "average_lifespan": "15–20 years",
+    "wingspan": "140–160 cm",
+    "migration_type": "Resident"
+  },
+
+  "Indian Pitta": {
+    "common_name": "Indian Pitta",
+    "scientific_name": "Pitta brachyura",
+    "family": "Pittidae",
+    "order": "Passeriformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "India",
+    "habitat": "Forests",
+    "diet": "Insects, snails",
+    "average_lifespan": "8–10 years",
+    "wingspan": "25–28 cm",
+    "migration_type": "Migratory"
+  },
+
+  "Indian Roller": {
+    "common_name": "Indian Roller",
+    "scientific_name": "Coracias benghalensis",
+    "family": "Coraciidae",
+    "order": "Coraciiformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "India, South Asia",
+    "habitat": "Open grasslands",
+    "diet": "Insects, small reptiles",
+    "average_lifespan": "8–10 years",
+    "wingspan": "65–74 cm",
+    "migration_type": "Resident"
+  },
+
+  "Jungle Babbler": {
+    "common_name": "Jungle Babbler",
+    "scientific_name": "Argya striata",
+    "family": "Leiothrichidae",
+    "order": "Passeriformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "India",
+    "habitat": "Scrublands, gardens",
+    "diet": "Insects, fruits",
+    "average_lifespan": "10–15 years",
+    "wingspan": "30–35 cm",
+    "migration_type": "Resident"
+  },
+
+  "Northern Lapwing": {
+    "common_name": "Northern Lapwing",
+    "scientific_name": "Vanellus vanellus",
+    "family": "Charadriidae",
+    "order": "Charadriiformes",
+    "conservation_status": "Near Threatened",
+    "native_regions": "Europe, Asia",
+    "habitat": "Wetlands, open fields",
+    "diet": "Insects",
+    "average_lifespan": "10–15 years",
+    "wingspan": "70–75 cm",
+    "migration_type": "Migratory"
+  },
+
+  "Red Wattled Lapwing": {
+    "common_name": "Red-wattled Lapwing",
+    "scientific_name": "Vanellus indicus",
+    "family": "Charadriidae",
+    "order": "Charadriiformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "India",
+    "habitat": "Wetlands, open grounds",
+    "diet": "Insects",
+    "average_lifespan": "10–15 years",
+    "wingspan": "60–65 cm",
+    "migration_type": "Resident"
+  },
+
+  "Ruddy Shelduck": {
+    "common_name": "Ruddy Shelduck",
+    "scientific_name": "Tadorna ferruginea",
+    "family": "Anatidae",
+    "order": "Anseriformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "Central Asia, India",
+    "habitat": "Lakes, rivers",
+    "diet": "Aquatic plants, insects",
+    "average_lifespan": "12–15 years",
+    "wingspan": "110–135 cm",
+    "migration_type": "Migratory"
+  },
+
+  "Rufous Treepie": {
+    "common_name": "Rufous Treepie",
+    "scientific_name": "Dendrocitta vagabunda",
+    "family": "Corvidae",
+    "order": "Passeriformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "Indian Subcontinent",
+    "habitat": "Forests, urban areas",
+    "diet": "Fruits, insects, eggs",
+    "average_lifespan": "8–15 years",
+    "wingspan": "45–50 cm",
+    "migration_type": "Resident"
+  },
+
+  "Sarus Crane": {
+    "common_name": "Sarus Crane",
+    "scientific_name": "Antigone antigone",
+    "family": "Gruidae",
+    "order": "Gruiformes",
+    "conservation_status": "Vulnerable",
+    "native_regions": "India, Southeast Asia",
+    "habitat": "Wetlands, farmlands",
+    "diet": "Roots, insects",
+    "average_lifespan": "20–30 years",
+    "wingspan": "220–250 cm",
+    "migration_type": "Resident"
+  },
+
+  "White Breasted Kingfisher": {
+    "common_name": "White-breasted Kingfisher",
+    "scientific_name": "Halcyon smyrnensis",
+    "family": "Alcedinidae",
+    "order": "Coraciiformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "India, South Asia",
+    "habitat": "Wetlands, gardens",
+    "diet": "Fish, insects",
+    "average_lifespan": "8–10 years",
+    "wingspan": "44–46 cm",
+    "migration_type": "Resident"
+  },
+
+  "White Breasted Waterhen": {
+    "common_name": "White-breasted Waterhen",
+    "scientific_name": "Amaurornis phoenicurus",
+    "family": "Rallidae",
+    "order": "Gruiformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "India, Southeast Asia",
+    "habitat": "Marshes, wetlands",
+    "diet": "Insects, aquatic plants",
+    "average_lifespan": "10–12 years",
+    "wingspan": "50–55 cm",
+    "migration_type": "Resident"
+  },
+
+  "White Wagtail": {
+    "common_name": "White Wagtail",
+    "scientific_name": "Motacilla alba",
+    "family": "Motacillidae",
+    "order": "Passeriformes",
+    "conservation_status": "Least Concern",
+    "native_regions": "Europe, Asia",
+    "habitat": "Urban areas, wetlands",
+    "diet": "Insects",
+    "average_lifespan": "8–10 years",
+    "wingspan": "25–30 cm",
+    "migration_type": "Migratory"
+  }
+}
